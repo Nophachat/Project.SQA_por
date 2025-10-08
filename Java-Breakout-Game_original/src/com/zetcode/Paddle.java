@@ -47,12 +47,12 @@ public class Paddle extends Sprite  {
 
         if (key == KeyEvent.VK_LEFT) {
 
-            dx = -1;
+            dx = -Commons.Paddle_SPEED;
         }
 
         if (key == KeyEvent.VK_RIGHT) {
 
-            dx = 1;
+            dx = Commons.Paddle_SPEED;
         }
     }
 

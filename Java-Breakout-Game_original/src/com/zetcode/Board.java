@@ -18,237 +18,242 @@ import java.awt.event.KeyEvent;
 
 public class Board extends JPanel {
 
-    private Timer timer;
-    private String message = "Game Over";
-    private Ball ball;
-    private Paddle paddle;
-    private Brick[] bricks;
-    private boolean inGame = true;
+	private int BALL_SPEED_InBoard = Commons.BALL_SPEED; // ปรับเป็น 3/4 ได้ถ้าต้องการให้เร็วขึ้นอีก
 
-    public Board() {
+	private Timer timer;
+	private String message = "Game Over";
+	private Ball ball;
+	private Paddle paddle;
+	private Brick[] bricks;
+	private boolean inGame = true;
 
-        initBoard();
-    }
+	public Board() {
 
-    private void initBoard() {
+	    initBoard();
+	}
 
-        addKeyListener(new TAdapter());
-        setFocusable(true);
-        setPreferredSize(new Dimension(Commons.WIDTH, Commons.HEIGHT));
+	private void initBoard() {
 
-        gameInit();
-    }
+	    addKeyListener(new TAdapter());
+	    setFocusable(true);
+	    setPreferredSize(new Dimension(Commons.WIDTH, Commons.HEIGHT));
 
-    private void gameInit() {
+	    gameInit();
+	}
 
-        bricks = new Brick[Commons.N_OF_BRICKS];
+	private void gameInit() {
 
-        ball = new Ball();
-        paddle = new Paddle();
+	    bricks = new Brick[Commons.N_OF_BRICKS];
 
-        int k = 0;
+	    ball = new Ball();
+	    paddle = new Paddle();
 
-        for (int i = 0; i < 5; i++) {
+	    // ตั้งค่าความเร็วเริ่มต้นของลูกบอลให้มีขนาดเป็น BALL_SPEED (คงทิศเดิม)
+	    ball.setXDir(ball.getXDir() < 0 ? -BALL_SPEED_InBoard : BALL_SPEED_InBoard);
+	    ball.setYDir(ball.getYDir() < 0 ? -BALL_SPEED_InBoard : BALL_SPEED_InBoard);
 
-            for (int j = 0; j < 6; j++) {
+	    int k = 0;
 
-                bricks[k] = new Brick(j * 40 + 30, i * 10 + 50);
-                k++;
-            }
-        }
+	    for (int i = 0; i < 5; i++) {
 
-        timer = new Timer(Commons.PERIOD, new GameCycle());
-        timer.start();
-    }
+	        for (int j = 0; j < 6; j++) {
 
-    @Override
-    public void paintComponent(Graphics g) {
-        super.paintComponent(g);
+	            bricks[k] = new Brick(j * 40 + 30, i * 10 + 50);
+	            k++;
+	        }
+	    }
 
-        var g2d = (Graphics2D) g;
+	    timer = new Timer(Commons.PERIOD, new GameCycle());
+	    timer.start();
+	}
 
-        g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING,
-                RenderingHints.VALUE_ANTIALIAS_ON);
+	@Override
+	public void paintComponent(Graphics g) {
+	    super.paintComponent(g);
 
-        g2d.setRenderingHint(RenderingHints.KEY_RENDERING,
-                RenderingHints.VALUE_RENDER_QUALITY);
+	    var g2d = (Graphics2D) g;
 
-        if (inGame) {
+	    g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING,
+	            RenderingHints.VALUE_ANTIALIAS_ON);
 
-            drawObjects(g2d);
-        } else {
+	    g2d.setRenderingHint(RenderingHints.KEY_RENDERING,
+	            RenderingHints.VALUE_RENDER_QUALITY);
 
-            gameFinished(g2d);
-        }
+	    if (inGame) {
 
-        Toolkit.getDefaultToolkit().sync();
-    }
+	        drawObjects(g2d);
+	    } else {
 
-    private void drawObjects(Graphics2D g2d) {
+	        gameFinished(g2d);
+	    }
 
-        g2d.drawImage(ball.getImage(), ball.getX(), ball.getY(),
-                ball.getImageWidth(), ball.getImageHeight(), this);
-        g2d.drawImage(paddle.getImage(), paddle.getX(), paddle.getY(),
-                paddle.getImageWidth(), paddle.getImageHeight(), this);
+	    Toolkit.getDefaultToolkit().sync();
+	}
 
-        for (int i = 0; i < Commons.N_OF_BRICKS; i++) {
+	private void drawObjects(Graphics2D g2d) {
 
-            if (!bricks[i].isDestroyed()) {
+	    g2d.drawImage(ball.getImage(), ball.getX(), ball.getY(),
+	            ball.getImageWidth(), ball.getImageHeight(), this);
+	    g2d.drawImage(paddle.getImage(), paddle.getX(), paddle.getY(),
+	            paddle.getImageWidth(), paddle.getImageHeight(), this);
 
-                g2d.drawImage(bricks[i].getImage(), bricks[i].getX(),
-                        bricks[i].getY(), bricks[i].getImageWidth(),
-                        bricks[i].getImageHeight(), this);
-            }
-        }
-    }
+	    for (int i = 0; i < Commons.N_OF_BRICKS; i++) {
 
-    private void gameFinished(Graphics2D g2d) {
+	        if (!bricks[i].isDestroyed()) {
 
-        var font = new Font("Verdana", Font.BOLD, 18);
-        FontMetrics fontMetrics = this.getFontMetrics(font);
+	            g2d.drawImage(bricks[i].getImage(), bricks[i].getX(),
+	                    bricks[i].getY(), bricks[i].getImageWidth(),
+	                    bricks[i].getImageHeight(), this);
+	        }
+	    }
+	}
 
-        g2d.setColor(Color.BLACK);
-        g2d.setFont(font);
-        g2d.drawString(message,
-                (Commons.WIDTH - fontMetrics.stringWidth(message)) / 2,
-                Commons.WIDTH / 2);
-    }
+	private void gameFinished(Graphics2D g2d) {
 
-    private class TAdapter extends KeyAdapter {
+	    var font = new Font("Verdana", Font.BOLD, 18);
+	    FontMetrics fontMetrics = this.getFontMetrics(font);
 
-        @Override
-        public void keyReleased(KeyEvent e) {
+	    g2d.setColor(Color.BLACK);
+	    g2d.setFont(font);
+	    g2d.drawString(message,
+	            (Commons.WIDTH - fontMetrics.stringWidth(message)) / 2,
+	            Commons.WIDTH / 2);
+	}
 
-            paddle.keyReleased(e);
-        }
+	private class TAdapter extends KeyAdapter {
 
-        @Override
-        public void keyPressed(KeyEvent e) {
+	    @Override
+	    public void keyReleased(KeyEvent e) {
 
-            paddle.keyPressed(e);
-        }
-    }
+	        paddle.keyReleased(e);
+	    }
 
-    private class GameCycle implements ActionListener {
+	    @Override
+	    public void keyPressed(KeyEvent e) {
 
-        @Override
-        public void actionPerformed(ActionEvent e) {
+	        paddle.keyPressed(e);
+	    }
+	}
 
-            doGameCycle();
-        }
-    }
+	private class GameCycle implements ActionListener {
 
-    private void doGameCycle() {
+	    @Override
+	    public void actionPerformed(ActionEvent e) {
 
-        ball.move();
-        paddle.move();
-        checkCollision();
-        repaint();
-    }
+	        doGameCycle();
+	    }
+	}
 
-    private void stopGame() {
+	private void doGameCycle() {
 
-        inGame = false;
-        timer.stop();
-    }
+	    ball.move();
+	    paddle.move();
+	    checkCollision();
+	    repaint();
+	}
 
-    private void checkCollision() {
+	private void stopGame() {
 
-        if (ball.getRect().getMaxY() > Commons.BOTTOM_EDGE) {
+	    inGame = false;
+	    timer.stop();
+	}
 
-            stopGame();
-        }
+	private void checkCollision() {
 
-        for (int i = 0, j = 0; i < Commons.N_OF_BRICKS; i++) {
+	    if (ball.getRect().getMaxY() > Commons.BOTTOM_EDGE) {
 
-            if (bricks[i].isDestroyed()) {
+	        stopGame();
+	    }
 
-                j++;
-            }
+	    for (int i = 0, j = 0; i < Commons.N_OF_BRICKS; i++) {
 
-            if (j == Commons.N_OF_BRICKS) {
+	        if (bricks[i].isDestroyed()) {
 
-                message = "Victory";
-                stopGame();
-            }
-        }
+	            j++;
+	        }
 
-        if ((ball.getRect()).intersects(paddle.getRect())) {
+	        if (j == Commons.N_OF_BRICKS) {
 
-            int paddleLPos = (int) paddle.getRect().getMinX();
-            int ballLPos = (int) ball.getRect().getMinX();
+	            message = "Victory";
+	            stopGame();
+	        }
+	    }
 
-            int first = paddleLPos + 8;
-            int second = paddleLPos + 16;
-            int third = paddleLPos + 24;
-            int fourth = paddleLPos + 32;
+	    if ((ball.getRect()).intersects(paddle.getRect())) {
 
-            if (ballLPos < first) {
+	        int paddleLPos = (int) paddle.getRect().getMinX();
+	        int ballLPos = (int) ball.getRect().getMinX();
 
-                ball.setXDir(-1);
-                ball.setYDir(-1);
-            }
+	        int first = paddleLPos + 8;
+	        int second = paddleLPos + 16;
+	        int third = paddleLPos + 24;
+	        int fourth = paddleLPos + 32;
 
-            if (ballLPos >= first && ballLPos < second) {
+	        if (ballLPos < first) {
 
-                ball.setXDir(-1);
-                ball.setYDir(-1 * ball.getYDir());
-            }
+	            ball.setXDir(-BALL_SPEED_InBoard);
+	            ball.setYDir(-BALL_SPEED_InBoard);
+	        }
 
-            if (ballLPos >= second && ballLPos < third) {
+	        if (ballLPos >= first && ballLPos < second) {
 
-                ball.setXDir(0);
-                ball.setYDir(-1);
-            }
+	            ball.setXDir(-BALL_SPEED_InBoard);
+	            ball.setYDir(-1 * ball.getYDir()); // กลับทิศแต่คงความเร็วเดิม
+	        }
 
-            if (ballLPos >= third && ballLPos < fourth) {
+	        if (ballLPos >= second && ballLPos < third) {
 
-                ball.setXDir(1);
-                ball.setYDir(-1 * ball.getYDir());
-            }
+	            ball.setXDir(0);
+	            ball.setYDir(-BALL_SPEED_InBoard);
+	        }
 
-            if (ballLPos > fourth) {
+	        if (ballLPos >= third && ballLPos < fourth) {
 
-                ball.setXDir(1);
-                ball.setYDir(-1);
-            }
-        }
+	            ball.setXDir(BALL_SPEED_InBoard);
+	            ball.setYDir(-1 * ball.getYDir()); // กลับทิศแต่คงความเร็วเดิม
+	        }
 
-        for (int i = 0; i < Commons.N_OF_BRICKS; i++) {
+	        if (ballLPos > fourth) {
 
-            if ((ball.getRect()).intersects(bricks[i].getRect())) {
+	            ball.setXDir(BALL_SPEED_InBoard);
+	            ball.setYDir(-BALL_SPEED_InBoard);
+	        }
+	    }
 
-                int ballLeft = (int) ball.getRect().getMinX();
-                int ballHeight = (int) ball.getRect().getHeight();
-                int ballWidth = (int) ball.getRect().getWidth();
-                int ballTop = (int) ball.getRect().getMinY();
+	    for (int i = 0; i < Commons.N_OF_BRICKS; i++) {
 
-                var pointRight = new Point(ballLeft + ballWidth + 1, ballTop);
-                var pointLeft = new Point(ballLeft - 1, ballTop);
-                var pointTop = new Point(ballLeft, ballTop - 1);
-                var pointBottom = new Point(ballLeft, ballTop + ballHeight + 1);
+	        if ((ball.getRect()).intersects(bricks[i].getRect())) {
 
-                if (!bricks[i].isDestroyed()) {
+	            int ballLeft = (int) ball.getRect().getMinX();
+	            int ballHeight = (int) ball.getRect().getHeight();
+	            int ballWidth = (int) ball.getRect().getWidth();
+	            int ballTop = (int) ball.getRect().getMinY();
 
-                    if (bricks[i].getRect().contains(pointRight)) {
+	            var pointRight = new Point(ballLeft + ballWidth + 1, ballTop);
+	            var pointLeft = new Point(ballLeft - 1, ballTop);
+	            var pointTop = new Point(ballLeft, ballTop - 1);
+	            var pointBottom = new Point(ballLeft, ballTop + ballHeight + 1);
 
-                        ball.setXDir(-1);
-                    } else if (bricks[i].getRect().contains(pointLeft)) {
+	            if (!bricks[i].isDestroyed()) {
 
-                        ball.setXDir(1);
-                    }
+	                if (bricks[i].getRect().contains(pointRight)) {
 
-                    if (bricks[i].getRect().contains(pointTop)) {
+	                    ball.setXDir(-BALL_SPEED_InBoard);
+	                } else if (bricks[i].getRect().contains(pointLeft)) {
 
-                        ball.setYDir(1);
-                    } else if (bricks[i].getRect().contains(pointBottom)) {
+	                    ball.setXDir(BALL_SPEED_InBoard);
+	                }
 
-                        ball.setYDir(-1);
-                    }
+	                if (bricks[i].getRect().contains(pointTop)) {
 
-                    bricks[i].setDestroyed(true);
-                }
-            }
-        }
-    }
-}
+	                    ball.setYDir(BALL_SPEED_InBoard);
+	                } else if (bricks[i].getRect().contains(pointBottom)) {
+
+	                    ball.setYDir(-BALL_SPEED_InBoard);
+	                }
+
+	                bricks[i].setDestroyed(true);
+	            }
+	        }
+	    }
+	}}

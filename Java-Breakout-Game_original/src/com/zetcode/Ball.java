@@ -30,24 +30,28 @@ public class Ball extends Sprite {
 
     void move() {
 
-        x += xdir;
-        y += ydir;
+    	// อัปเดตตำแหน่งก่อน
+    	x += xdir;
+    	y += ydir;
 
-        if (x == 0) {
+    	int right = Commons.WIDTH - getImageWidth();
 
-            setXDir(1);
-        }
+    	// ชนผนังซ้าย/ขวา
+    	if (x <= 0) {
+    	    x = 0;                 // จับให้อยู่ในขอบ
+    	    xdir = Math.abs(xdir); // เด้งไปทางขวา (คงความเร็วเดิม)
+    	} else if (x >= right) {
+    	    x = right;
+    	    xdir = -Math.abs(xdir); // เด้งไปทางซ้าย (คงความเร็วเดิม)
+    	}
 
-        if (x == Commons.WIDTH - imageWidth) {
+    	// ชนเพดาน (ด้านบน)
+    	if (y <= 0) {
+    	    y = 0;
+    	    ydir = Math.abs(ydir);  // เด้งลง (คงความเร็วเดิม)
+    	}
 
-            System.out.println(imageWidth);
-            setXDir(-1);
-        }
-
-        if (y == 0) {
-
-            setYDir(1);
-        }
+    	// ด้านล่างปล่อยให้ Board เช็ค game over เอง
     }
 
     private void resetState() {
@@ -64,6 +68,10 @@ public class Ball extends Sprite {
     void setYDir(int y) {
 
         ydir = y;
+    }
+    //*****************ทดสอบแก้
+    int getXDir() { 
+    	return xdir; 
     }
 
     int getYDir() {

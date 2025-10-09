@@ -1,0 +1,3 @@
+แก้ checkCollisions ในไฟล์ GamePanel จาก pivate เป็น public
+แก้ paintComponent  ในไฟล์ GamePanel จาก protected เป็น public
+บรรทักที่ 116 Graphics mockGraphics = new Graphics() ต้อแก้เยอะมาก

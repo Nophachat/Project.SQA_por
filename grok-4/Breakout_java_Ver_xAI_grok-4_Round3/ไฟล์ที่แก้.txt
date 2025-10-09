@@ -1,0 +1,1 @@
+เพิ่ม ฟังชัน get Dx และ get Dy ใน ball.java

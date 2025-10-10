@@ -25,7 +25,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
     
     public GamePanel() {
         setBackground(Color.BLACK);
-        setFocusable(true);
+        setFocusable(true); 
         addKeyListener(this);
         
         // สร้างองค์ประกอบของเกม

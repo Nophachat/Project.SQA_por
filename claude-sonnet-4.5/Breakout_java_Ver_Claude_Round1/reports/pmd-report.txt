@@ -1,0 +1,352 @@
+src/Game/Ball.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/Game/Ball.java:6:	CommentRequired:	CommentRequired: Class comments are required
+src/Game/Ball.java:6:	ShortClassName:	ShortClassName: Avoid short class names like Ball
+src/Game/Ball.java:7:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/Ball.java:7:	OneDeclarationPerLine:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/Game/Ball.java:7:	ShortVariable:	ShortVariable: Avoid variables with short names like x
+src/Game/Ball.java:7:	ShortVariable:	ShortVariable: Avoid variables with short names like y
+src/Game/Ball.java:8:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/Ball.java:8:	OneDeclarationPerLine:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/Game/Ball.java:8:	ShortVariable:	ShortVariable: Avoid variables with short names like dx
+src/Game/Ball.java:8:	ShortVariable:	ShortVariable: Avoid variables with short names like dy
+src/Game/Ball.java:9:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/Ball.java:11:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Game/Ball.java:11:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'x' is not assigned and could be declared final
+src/Game/Ball.java:11:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'y' is not assigned and could be declared final
+src/Game/Ball.java:11:	ShortVariable:	ShortVariable: Avoid variables with short names like x
+src/Game/Ball.java:11:	ShortVariable:	ShortVariable: Avoid variables with short names like y
+src/Game/Ball.java:16:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Game/Ball.java:21:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Game/Ball.java:25:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Game/Ball.java:29:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Game/Ball.java:29:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'objHeight' is not assigned and could be declared final
+src/Game/Ball.java:29:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'objWidth' is not assigned and could be declared final
+src/Game/Ball.java:29:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'objX' is not assigned and could be declared final
+src/Game/Ball.java:29:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'objY' is not assigned and could be declared final
+src/Game/Ball.java:36:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Game/Ball.java:36:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'g' is not assigned and could be declared final
+src/Game/Ball.java:36:	ShortVariable:	ShortVariable: Avoid variables with short names like g
+src/Game/BreakoutGame.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/Game/BreakoutGame.java:5:	CommentRequired:	CommentRequired: Class comments are required
+src/Game/BreakoutGame.java:5:	UseUtilityClass:	UseUtilityClass: All methods are static. Consider adding a private no-args constructor to prevent instantiation.
+src/Game/BreakoutGame.java:6:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Game/BreakoutGame.java:7:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'frame' could be declared final
+src/Game/BreakoutGame.java:8:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'gamePanel' could be declared final
+src/Game/Brick.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/Game/Brick.java:6:	CommentRequired:	CommentRequired: Class comments are required
+src/Game/Brick.java:6:	DataClass:	DataClass: The class 'Brick' is suspected to be a Data Class (WOC=28.571%, NOPA=0, NOAM=5, WMC=13)
+src/Game/Brick.java:7:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/Brick.java:7:	ImmutableField:	ImmutableField: Field 'height' may be declared final
+src/Game/Brick.java:7:	ImmutableField:	ImmutableField: Field 'width' may be declared final
+src/Game/Brick.java:7:	ImmutableField:	ImmutableField: Field 'x' may be declared final
+src/Game/Brick.java:7:	ImmutableField:	ImmutableField: Field 'y' may be declared final
+src/Game/Brick.java:7:	OneDeclarationPerLine:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/Game/Brick.java:7:	ShortVariable:	ShortVariable: Avoid variables with short names like x
+src/Game/Brick.java:7:	ShortVariable:	ShortVariable: Avoid variables with short names like y
+src/Game/Brick.java:8:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/Brick.java:8:	RedundantFieldInitializer:	RedundantFieldInitializer: Avoid using redundant field initializer for 'destroyed'
+src/Game/Brick.java:9:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/Brick.java:11:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Game/Brick.java:11:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'height' is not assigned and could be declared final
+src/Game/Brick.java:11:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'width' is not assigned and could be declared final
+src/Game/Brick.java:11:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'x' is not assigned and could be declared final
+src/Game/Brick.java:11:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'y' is not assigned and could be declared final
+src/Game/Brick.java:11:	ShortVariable:	ShortVariable: Avoid variables with short names like x
+src/Game/Brick.java:11:	ShortVariable:	ShortVariable: Avoid variables with short names like y
+src/Game/Brick.java:18:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'colorChoice' could be declared final
+src/Game/Brick.java:28:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Game/Brick.java:36:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Game/Brick.java:36:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'g' is not assigned and could be declared final
+src/Game/Brick.java:36:	ShortVariable:	ShortVariable: Avoid variables with short names like g
+src/Game/GamePanel.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/Game/GamePanel.java:12:	CommentRequired:	CommentRequired: Class comments are required
+src/Game/GamePanel.java:12:	MissingSerialVersionUID:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/Game/GamePanel.java:13:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/GamePanel.java:13:	ImmutableField:	ImmutableField: Field 'timer' may be declared final
+src/Game/GamePanel.java:14:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/GamePanel.java:14:	ImmutableField:	ImmutableField: Field 'ball' may be declared final
+src/Game/GamePanel.java:14:	NonSerializableClass:	NonSerializableClass: The field 'ball' of serializable class 'Game.GamePanel' is of non-serializable type 'Game.Ball'.
+src/Game/GamePanel.java:15:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/GamePanel.java:15:	ImmutableField:	ImmutableField: Field 'paddle' may be declared final
+src/Game/GamePanel.java:15:	NonSerializableClass:	NonSerializableClass: The field 'paddle' of serializable class 'Game.GamePanel' is of non-serializable type 'Game.Paddle'.
+src/Game/GamePanel.java:16:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/GamePanel.java:16:	ImmutableField:	ImmutableField: Field 'bricks' may be declared final
+src/Game/GamePanel.java:17:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/GamePanel.java:17:	RedundantFieldInitializer:	RedundantFieldInitializer: Avoid using redundant field initializer for 'gameOver'
+src/Game/GamePanel.java:18:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/GamePanel.java:18:	RedundantFieldInitializer:	RedundantFieldInitializer: Avoid using redundant field initializer for 'victory'
+src/Game/GamePanel.java:19:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/GamePanel.java:21:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/GamePanel.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/GamePanel.java:23:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/GamePanel.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/GamePanel.java:24:	UnusedPrivateField:	UnusedPrivateField: Avoid unused private fields such as 'PANEL_HEIGHT'.
+src/Game/GamePanel.java:26:	CallSuperInConstructor:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+src/Game/GamePanel.java:26:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Game/GamePanel.java:27:	ConstructorCallsOverridableMethod:	ConstructorCallsOverridableMethod: Overridable method called during object construction: JComponent.setBackground(Color) 
+src/Game/GamePanel.java:29:	ConstructorCallsOverridableMethod:	ConstructorCallsOverridableMethod: Overridable method called during object construction: Component.addKeyListener(KeyListener) 
+src/Game/GamePanel.java:38:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'margin' could be declared final
+src/Game/GamePanel.java:39:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'brickGap' could be declared final
+src/Game/GamePanel.java:40:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'startY' could be declared final
+src/Game/GamePanel.java:43:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'totalWidth' could be declared final
+src/Game/GamePanel.java:44:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'totalGaps' could be declared final
+src/Game/GamePanel.java:45:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'brickWidth' could be declared final
+src/Game/GamePanel.java:46:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'brickHeight' could be declared final
+src/Game/GamePanel.java:50:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/Game/GamePanel.java:50:	ShortVariable:	ShortVariable: Avoid variables with short names like x
+src/Game/GamePanel.java:51:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'y' could be declared final
+src/Game/GamePanel.java:51:	ShortVariable:	ShortVariable: Avoid variables with short names like y
+src/Game/GamePanel.java:62:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'g' is not assigned and could be declared final
+src/Game/GamePanel.java:62:	ShortVariable:	ShortVariable: Avoid variables with short names like g
+src/Game/GamePanel.java:93:	CognitiveComplexity:	CognitiveComplexity: The method 'actionPerformed(ActionEvent)' has a cognitive complexity of 26, current threshold is 15
+src/Game/GamePanel.java:93:	CyclomaticComplexity:	CyclomaticComplexity: The method 'actionPerformed(ActionEvent)' has a cyclomatic complexity of 13.
+src/Game/GamePanel.java:93:	ShortVariable:	ShortVariable: Avoid variables with short names like e
+src/Game/GamePanel.java:122:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'brick' could be declared final
+src/Game/GamePanel.java:131:	AvoidDeeplyNestedIfStmts:	AvoidDeeplyNestedIfStmts: Deeply nested if..then statements are hard to read
+src/Game/GamePanel.java:144:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Game/GamePanel.java:144:	ShortVariable:	ShortVariable: Avoid variables with short names like e
+src/Game/GamePanel.java:146:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'key' could be declared final
+src/Game/GamePanel.java:159:	ShortVariable:	ShortVariable: Avoid variables with short names like e
+src/Game/GamePanel.java:159:	UncommentedEmptyMethodBody:	UncommentedEmptyMethodBody: Document empty method body
+src/Game/GamePanel.java:162:	ShortVariable:	ShortVariable: Avoid variables with short names like e
+src/Game/GamePanel.java:162:	UncommentedEmptyMethodBody:	UncommentedEmptyMethodBody: Document empty method body
+src/Game/Paddle.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/Game/Paddle.java:6:	CommentRequired:	CommentRequired: Class comments are required
+src/Game/Paddle.java:7:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/Paddle.java:7:	ImmutableField:	ImmutableField: Field 'y' may be declared final
+src/Game/Paddle.java:7:	OneDeclarationPerLine:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/Game/Paddle.java:7:	ShortVariable:	ShortVariable: Avoid variables with short names like x
+src/Game/Paddle.java:7:	ShortVariable:	ShortVariable: Avoid variables with short names like y
+src/Game/Paddle.java:8:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/Paddle.java:9:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/Paddle.java:10:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/Paddle.java:12:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Game/Paddle.java:12:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'x' is not assigned and could be declared final
+src/Game/Paddle.java:12:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'y' is not assigned and could be declared final
+src/Game/Paddle.java:12:	ShortVariable:	ShortVariable: Avoid variables with short names like x
+src/Game/Paddle.java:12:	ShortVariable:	ShortVariable: Avoid variables with short names like y
+src/Game/Paddle.java:17:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Game/Paddle.java:24:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Game/Paddle.java:24:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'screenWidth' is not assigned and could be declared final
+src/Game/Paddle.java:31:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Game/Paddle.java:31:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'g' is not assigned and could be declared final
+src/Game/Paddle.java:31:	ShortVariable:	ShortVariable: Avoid variables with short names like g
+src/Test/BallTest.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/Test/BallTest.java:13:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/Test/BallTest.java:13:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/BallTest.java:13:	TooManyMethods:	TooManyMethods: This class has too many methods, consider refactoring it.
+src/Test/BallTest.java:14:	CommentRequired:	CommentRequired: Field comments are required
+src/Test/BallTest.java:17:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/BallTest.java:22:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/BallTest.java:22:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/BallTest.java:22:	UnitTestContainsTooManyAsserts:	UnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/Test/BallTest.java:24:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/Test/BallTest.java:25:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/Test/BallTest.java:29:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/BallTest.java:29:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/BallTest.java:31:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/Test/BallTest.java:35:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/BallTest.java:35:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/BallTest.java:35:	UnitTestContainsTooManyAsserts:	UnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/Test/BallTest.java:37:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'initialX' could be declared final
+src/Test/BallTest.java:38:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'initialY' could be declared final
+src/Test/BallTest.java:45:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/BallTest.java:45:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/BallTest.java:47:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'x1' could be declared final
+src/Test/BallTest.java:47:	ShortVariable:	ShortVariable: Avoid variables with short names like x1
+src/Test/BallTest.java:49:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'x2' could be declared final
+src/Test/BallTest.java:49:	ShortVariable:	ShortVariable: Avoid variables with short names like x2
+src/Test/BallTest.java:50:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'deltaX1' could be declared final
+src/Test/BallTest.java:54:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'x3' could be declared final
+src/Test/BallTest.java:54:	ShortVariable:	ShortVariable: Avoid variables with short names like x3
+src/Test/BallTest.java:55:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'deltaX2' could be declared final
+src/Test/BallTest.java:57:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/Test/BallTest.java:61:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/BallTest.java:61:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/BallTest.java:63:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'y1' could be declared final
+src/Test/BallTest.java:63:	ShortVariable:	ShortVariable: Avoid variables with short names like y1
+src/Test/BallTest.java:65:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'y2' could be declared final
+src/Test/BallTest.java:65:	ShortVariable:	ShortVariable: Avoid variables with short names like y2
+src/Test/BallTest.java:66:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'deltaY1' could be declared final
+src/Test/BallTest.java:70:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'y3' could be declared final
+src/Test/BallTest.java:70:	ShortVariable:	ShortVariable: Avoid variables with short names like y3
+src/Test/BallTest.java:71:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'deltaY2' could be declared final
+src/Test/BallTest.java:73:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/Test/BallTest.java:77:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/BallTest.java:77:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/BallTest.java:77:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'testIntersects_True' doesn't match '[a-z][a-zA-Z0-9]*'
+src/Test/BallTest.java:80:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/Test/BallTest.java:84:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/BallTest.java:84:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/BallTest.java:84:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'testIntersects_False_Left' doesn't match '[a-z][a-zA-Z0-9]*'
+src/Test/BallTest.java:87:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/Test/BallTest.java:91:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/BallTest.java:91:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/BallTest.java:91:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'testIntersects_False_Right' doesn't match '[a-z][a-zA-Z0-9]*'
+src/Test/BallTest.java:94:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/Test/BallTest.java:98:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/BallTest.java:98:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/BallTest.java:98:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'testIntersects_False_Above' doesn't match '[a-z][a-zA-Z0-9]*'
+src/Test/BallTest.java:101:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/Test/BallTest.java:105:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/BallTest.java:105:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/BallTest.java:105:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'testIntersects_False_Below' doesn't match '[a-z][a-zA-Z0-9]*'
+src/Test/BallTest.java:108:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/Test/BallTest.java:112:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/BallTest.java:112:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/BreakoutGameTest.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/Test/BreakoutGameTest.java:11:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/Test/BreakoutGameTest.java:11:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/BreakoutGameTest.java:14:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/BreakoutGameTest.java:14:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/BreakoutGameTest.java:18:	DoNotUseThreads:	DoNotUseThreads: To be compliant to J2EE, a webapp should not use any thread.
+src/Test/BreakoutGameTest.java:18:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'testThread' could be declared final
+src/Test/BreakoutGameTest.java:21:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'frame' could be declared final
+src/Test/BreakoutGameTest.java:22:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'gamePanel' could be declared final
+src/Test/BreakoutGameTest.java:29:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/Test/BrickTest.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/Test/BrickTest.java:14:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/Test/BrickTest.java:14:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/BrickTest.java:15:	CommentRequired:	CommentRequired: Field comments are required
+src/Test/BrickTest.java:18:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/BrickTest.java:23:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/BrickTest.java:23:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/BrickTest.java:23:	UnitTestContainsTooManyAsserts:	UnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/Test/BrickTest.java:25:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/Test/BrickTest.java:26:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/Test/BrickTest.java:27:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/Test/BrickTest.java:28:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/Test/BrickTest.java:32:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/BrickTest.java:32:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/BrickTest.java:34:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/Test/BrickTest.java:38:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/BrickTest.java:38:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/BrickTest.java:41:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/Test/BrickTest.java:45:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/BrickTest.java:45:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/BrickTest.java:45:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'testDraw_NotDestroyed' doesn't match '[a-z][a-zA-Z0-9]*'
+src/Test/BrickTest.java:47:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'g' could be declared final
+src/Test/BrickTest.java:47:	ShortVariable:	ShortVariable: Avoid variables with short names like g
+src/Test/BrickTest.java:52:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/BrickTest.java:52:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/BrickTest.java:52:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'testDraw_Destroyed' doesn't match '[a-z][a-zA-Z0-9]*'
+src/Test/BrickTest.java:55:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'g' could be declared final
+src/Test/BrickTest.java:55:	ShortVariable:	ShortVariable: Avoid variables with short names like g
+src/Test/BrickTest.java:60:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/BrickTest.java:60:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/BrickTest.java:60:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'testColorRandomization_Case0' doesn't match '[a-z][a-zA-Z0-9]*'
+src/Test/BrickTest.java:64:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/Test/BrickTest.java:64:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'testBrick' could be declared final
+src/Test/BrickTest.java:65:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/Test/GamePanelTest.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/Test/GamePanelTest.java:14:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/Test/GamePanelTest.java:14:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/GamePanelTest.java:14:	TooManyMethods:	TooManyMethods: This class has too many methods, consider refactoring it.
+src/Test/GamePanelTest.java:15:	CommentRequired:	CommentRequired: Field comments are required
+src/Test/GamePanelTest.java:16:	CommentRequired:	CommentRequired: Field comments are required
+src/Test/GamePanelTest.java:16:	SingularField:	SingularField: Perhaps 'frame' could be replaced by a local variable.
+src/Test/GamePanelTest.java:19:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/GamePanelTest.java:27:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/GamePanelTest.java:27:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/GamePanelTest.java:27:	UnitTestContainsTooManyAsserts:	UnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/Test/GamePanelTest.java:29:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/Test/GamePanelTest.java:30:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/Test/GamePanelTest.java:34:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/GamePanelTest.java:34:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/GamePanelTest.java:42:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/GamePanelTest.java:42:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/GamePanelTest.java:42:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'testActionPerformed_GameRunning' doesn't match '[a-z][a-zA-Z0-9]*'
+src/Test/GamePanelTest.java:52:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/GamePanelTest.java:52:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/GamePanelTest.java:52:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'testKeyPressed_LeftArrow' doesn't match '[a-z][a-zA-Z0-9]*'
+src/Test/GamePanelTest.java:54:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'leftKey' could be declared final
+src/Test/GamePanelTest.java:60:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/GamePanelTest.java:60:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/GamePanelTest.java:60:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'testKeyPressed_RightArrow' doesn't match '[a-z][a-zA-Z0-9]*'
+src/Test/GamePanelTest.java:62:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'rightKey' could be declared final
+src/Test/GamePanelTest.java:68:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/GamePanelTest.java:68:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/GamePanelTest.java:68:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'testKeyPressed_OtherKey' doesn't match '[a-z][a-zA-Z0-9]*'
+src/Test/GamePanelTest.java:70:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'otherKey' could be declared final
+src/Test/GamePanelTest.java:76:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/GamePanelTest.java:76:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/GamePanelTest.java:78:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'keyEvent' could be declared final
+src/Test/GamePanelTest.java:84:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/GamePanelTest.java:84:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/GamePanelTest.java:86:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'keyEvent' could be declared final
+src/Test/GamePanelTest.java:92:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/GamePanelTest.java:92:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/GamePanelTest.java:104:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/GamePanelTest.java:104:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/GamePanelTest.java:109:	LambdaCanBeMethodReference:	LambdaCanBeMethodReference: Lambda expression could be written as a method reference: `gamePanel::repaint`
+src/Test/GamePanelTest.java:113:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/GamePanelTest.java:113:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/GamePanelTest.java:113:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'testBallFallsDown_GameOver' doesn't match '[a-z][a-zA-Z0-9]*'
+src/Test/GamePanelTest.java:126:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/GamePanelTest.java:126:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/GamePanelTest.java:130:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/Test/GamePanelTest.java:130:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'leftKey' could be declared final
+src/Test/GamePanelTest.java:135:	LambdaCanBeMethodReference:	LambdaCanBeMethodReference: Lambda expression could be written as a method reference: `gamePanel::repaint`
+src/Test/GamePanelTest.java:139:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/GamePanelTest.java:139:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/GamePanelTest.java:145:	LambdaCanBeMethodReference:	LambdaCanBeMethodReference: Lambda expression could be written as a method reference: `gamePanel::repaint`
+src/Test/GamePanelTest.java:149:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/GamePanelTest.java:149:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/GamePanelTest.java:156:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/Test/GamePanelTest.java:156:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'key' could be declared final
+src/Test/GamePanelTest.java:169:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/GamePanelTest.java:169:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/GamePanelTest.java:169:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'testKeyPressed_WhenGameOver' doesn't match '[a-z][a-zA-Z0-9]*'
+src/Test/GamePanelTest.java:176:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'leftKey' could be declared final
+src/Test/GamePanelTest.java:182:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/GamePanelTest.java:182:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/GamePanelTest.java:182:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'testActionPerformed_WhenGameOver' doesn't match '[a-z][a-zA-Z0-9]*'
+src/Test/PaddleTest.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/Test/PaddleTest.java:12:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/Test/PaddleTest.java:12:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/PaddleTest.java:13:	CommentRequired:	CommentRequired: Field comments are required
+src/Test/PaddleTest.java:14:	CommentRequired:	CommentRequired: Field comments are required
+src/Test/PaddleTest.java:17:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/PaddleTest.java:22:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/PaddleTest.java:22:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/PaddleTest.java:22:	UnitTestContainsTooManyAsserts:	UnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/Test/PaddleTest.java:24:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/Test/PaddleTest.java:25:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/Test/PaddleTest.java:29:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/PaddleTest.java:29:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/PaddleTest.java:29:	UnitTestContainsTooManyAsserts:	UnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/Test/PaddleTest.java:31:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/Test/PaddleTest.java:32:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/Test/PaddleTest.java:36:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/PaddleTest.java:36:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/PaddleTest.java:36:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'testMoveLeft_Normal' doesn't match '[a-z][a-zA-Z0-9]*'
+src/Test/PaddleTest.java:36:	UnitTestContainsTooManyAsserts:	UnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/Test/PaddleTest.java:38:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'initialX' could be declared final
+src/Test/PaddleTest.java:40:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/Test/PaddleTest.java:41:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/Test/PaddleTest.java:45:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/PaddleTest.java:45:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/PaddleTest.java:45:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'testMoveLeft_HitBoundary' doesn't match '[a-z][a-zA-Z0-9]*'
+src/Test/PaddleTest.java:49:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/Test/PaddleTest.java:53:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/PaddleTest.java:53:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/PaddleTest.java:53:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'testMoveLeft_AlreadyAtBoundary' doesn't match '[a-z][a-zA-Z0-9]*'
+src/Test/PaddleTest.java:57:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/Test/PaddleTest.java:61:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/PaddleTest.java:61:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/PaddleTest.java:61:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'testMoveRight_Normal' doesn't match '[a-z][a-zA-Z0-9]*'
+src/Test/PaddleTest.java:63:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'initialX' could be declared final
+src/Test/PaddleTest.java:65:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/Test/PaddleTest.java:69:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/PaddleTest.java:69:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/PaddleTest.java:69:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'testMoveRight_HitBoundary' doesn't match '[a-z][a-zA-Z0-9]*'
+src/Test/PaddleTest.java:73:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/Test/PaddleTest.java:77:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/PaddleTest.java:77:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/PaddleTest.java:77:	MethodNamingConventions:	MethodNamingConventions: The JUnit 5 test method name 'testMoveRight_AlreadyAtBoundary' doesn't match '[a-z][a-zA-Z0-9]*'
+src/Test/PaddleTest.java:81:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/Test/PaddleTest.java:85:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Test/PaddleTest.java:85:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/Test/TestRunner.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/Test/TestRunner.java:17:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/Test/TestRunner.java:17:	TestClassWithoutTestCases:	TestClassWithoutTestCases: The class 'TestRunner' might be a test class, but it contains no test cases.

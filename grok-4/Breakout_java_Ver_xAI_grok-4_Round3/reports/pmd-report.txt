@@ -1,0 +1,269 @@
+src/Game/Ball.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/Game/Ball.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/Game/Ball.java:3:	ShortClassName:	ShortClassName: Avoid short class names like Ball
+src/Game/Ball.java:4:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/Ball.java:4:	ImmutableField:	ImmutableField: Field 'height' may be declared final
+src/Game/Ball.java:4:	ImmutableField:	ImmutableField: Field 'width' may be declared final
+src/Game/Ball.java:4:	OneDeclarationPerLine:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/Game/Ball.java:4:	ShortVariable:	ShortVariable: Avoid variables with short names like dx
+src/Game/Ball.java:4:	ShortVariable:	ShortVariable: Avoid variables with short names like dy
+src/Game/Ball.java:4:	ShortVariable:	ShortVariable: Avoid variables with short names like x
+src/Game/Ball.java:4:	ShortVariable:	ShortVariable: Avoid variables with short names like y
+src/Game/Ball.java:6:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Game/Ball.java:6:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'dx' is not assigned and could be declared final
+src/Game/Ball.java:6:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'dy' is not assigned and could be declared final
+src/Game/Ball.java:6:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'height' is not assigned and could be declared final
+src/Game/Ball.java:6:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'width' is not assigned and could be declared final
+src/Game/Ball.java:6:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'x' is not assigned and could be declared final
+src/Game/Ball.java:6:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'y' is not assigned and could be declared final
+src/Game/Ball.java:6:	ShortVariable:	ShortVariable: Avoid variables with short names like dx
+src/Game/Ball.java:6:	ShortVariable:	ShortVariable: Avoid variables with short names like dy
+src/Game/Ball.java:6:	ShortVariable:	ShortVariable: Avoid variables with short names like x
+src/Game/Ball.java:6:	ShortVariable:	ShortVariable: Avoid variables with short names like y
+src/Game/Ball.java:15:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Game/Ball.java:20:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Game/Ball.java:21:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Game/Ball.java:23:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Game/Ball.java:23:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'objHeight' is not assigned and could be declared final
+src/Game/Ball.java:23:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'objWidth' is not assigned and could be declared final
+src/Game/Ball.java:23:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'objX' is not assigned and could be declared final
+src/Game/Ball.java:23:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'objY' is not assigned and could be declared final
+src/Game/Breakout.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/Game/Breakout.java:5:	CommentRequired:	CommentRequired: Class comments are required
+src/Game/Breakout.java:5:	UseUtilityClass:	UseUtilityClass: All methods are static. Consider adding a private no-args constructor to prevent instantiation.
+src/Game/Breakout.java:6:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Game/Breakout.java:7:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'frame' could be declared final
+src/Game/Breakout.java:8:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'panel' could be declared final
+src/Game/Brick.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/Game/Brick.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/Game/Brick.java:3:	DataClass:	DataClass: The class 'Brick' is suspected to be a Data Class (WOC=16.667%, NOPA=0, NOAM=5, WMC=7)
+src/Game/Brick.java:4:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/Brick.java:4:	ImmutableField:	ImmutableField: Field 'height' may be declared final
+src/Game/Brick.java:4:	ImmutableField:	ImmutableField: Field 'width' may be declared final
+src/Game/Brick.java:4:	ImmutableField:	ImmutableField: Field 'x' may be declared final
+src/Game/Brick.java:4:	ImmutableField:	ImmutableField: Field 'y' may be declared final
+src/Game/Brick.java:4:	OneDeclarationPerLine:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/Game/Brick.java:4:	ShortVariable:	ShortVariable: Avoid variables with short names like x
+src/Game/Brick.java:4:	ShortVariable:	ShortVariable: Avoid variables with short names like y
+src/Game/Brick.java:5:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/Brick.java:5:	RedundantFieldInitializer:	RedundantFieldInitializer: Avoid using redundant field initializer for 'destroyed'
+src/Game/Brick.java:7:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Game/Brick.java:7:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'height' is not assigned and could be declared final
+src/Game/Brick.java:7:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'width' is not assigned and could be declared final
+src/Game/Brick.java:7:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'x' is not assigned and could be declared final
+src/Game/Brick.java:7:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'y' is not assigned and could be declared final
+src/Game/Brick.java:7:	ShortVariable:	ShortVariable: Avoid variables with short names like x
+src/Game/Brick.java:7:	ShortVariable:	ShortVariable: Avoid variables with short names like y
+src/Game/Brick.java:14:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Game/GamePanel.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/Game/GamePanel.java:12:	CommentRequired:	CommentRequired: Class comments are required
+src/Game/GamePanel.java:12:	MissingSerialVersionUID:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/Game/GamePanel.java:13:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/GamePanel.java:14:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/GamePanel.java:15:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/GamePanel.java:17:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/GamePanel.java:17:	ImmutableField:	ImmutableField: Field 'timer' may be declared final
+src/Game/GamePanel.java:18:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/GamePanel.java:18:	ImmutableField:	ImmutableField: Field 'paddle' may be declared final
+src/Game/GamePanel.java:18:	NonSerializableClass:	NonSerializableClass: The field 'paddle' of serializable class 'Game.GamePanel' is of non-serializable type 'Game.Paddle'.
+src/Game/GamePanel.java:19:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/GamePanel.java:19:	ImmutableField:	ImmutableField: Field 'ball' may be declared final
+src/Game/GamePanel.java:19:	NonSerializableClass:	NonSerializableClass: The field 'ball' of serializable class 'Game.GamePanel' is of non-serializable type 'Game.Ball'.
+src/Game/GamePanel.java:20:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/GamePanel.java:20:	ImmutableField:	ImmutableField: Field 'bricks' may be declared final
+src/Game/GamePanel.java:21:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/GamePanel.java:21:	RedundantFieldInitializer:	RedundantFieldInitializer: Avoid using redundant field initializer for 'gameOver'
+src/Game/GamePanel.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/GamePanel.java:22:	RedundantFieldInitializer:	RedundantFieldInitializer: Avoid using redundant field initializer for 'victory'
+src/Game/GamePanel.java:23:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/GamePanel.java:23:	RedundantFieldInitializer:	RedundantFieldInitializer: Avoid using redundant field initializer for 'bricksDestroyed'
+src/Game/GamePanel.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/GamePanel.java:25:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/GamePanel.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/GamePanel.java:27:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/GamePanel.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/GamePanel.java:30:	CallSuperInConstructor:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+src/Game/GamePanel.java:30:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Game/GamePanel.java:31:	ConstructorCallsOverridableMethod:	ConstructorCallsOverridableMethod: Overridable method called during object construction: JComponent.setBackground(Color) 
+src/Game/GamePanel.java:32:	ConstructorCallsOverridableMethod:	ConstructorCallsOverridableMethod: Overridable method called during object construction: Component.setFocusable(boolean) 
+src/Game/GamePanel.java:33:	ConstructorCallsOverridableMethod:	ConstructorCallsOverridableMethod: Overridable method called during object construction: Component.addKeyListener(KeyListener) 
+src/Game/GamePanel.java:35:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Game/GamePanel.java:35:	ShortVariable:	ShortVariable: Avoid variables with short names like e
+src/Game/GamePanel.java:57:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/Game/GamePanel.java:57:	ShortVariable:	ShortVariable: Avoid variables with short names like x
+src/Game/GamePanel.java:58:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'y' could be declared final
+src/Game/GamePanel.java:58:	ShortVariable:	ShortVariable: Avoid variables with short names like y
+src/Game/GamePanel.java:59:	AssignmentInOperand:	AssignmentInOperand: Avoid assignment to index in operand
+src/Game/GamePanel.java:65:	ShortVariable:	ShortVariable: Avoid variables with short names like e
+src/Game/GamePanel.java:73:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Game/GamePanel.java:73:	CyclomaticComplexity:	CyclomaticComplexity: The method 'checkCollisions()' has a cyclomatic complexity of 10.
+src/Game/GamePanel.java:93:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'brick' could be declared final
+src/Game/GamePanel.java:108:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'g' is not assigned and could be declared final
+src/Game/GamePanel.java:108:	ShortVariable:	ShortVariable: Avoid variables with short names like g
+src/Game/GamePanel.java:121:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'brick' could be declared final
+src/Game/Paddle.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/Game/Paddle.java:5:	CommentRequired:	CommentRequired: Class comments are required
+src/Game/Paddle.java:5:	DataClass:	DataClass: The class 'Paddle' is suspected to be a Data Class (WOC=20.000%, NOPA=0, NOAM=4, WMC=10)
+src/Game/Paddle.java:6:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/Paddle.java:6:	ImmutableField:	ImmutableField: Field 'height' may be declared final
+src/Game/Paddle.java:6:	ImmutableField:	ImmutableField: Field 'width' may be declared final
+src/Game/Paddle.java:6:	ImmutableField:	ImmutableField: Field 'y' may be declared final
+src/Game/Paddle.java:6:	OneDeclarationPerLine:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/Game/Paddle.java:6:	ShortVariable:	ShortVariable: Avoid variables with short names like x
+src/Game/Paddle.java:6:	ShortVariable:	ShortVariable: Avoid variables with short names like y
+src/Game/Paddle.java:7:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/Paddle.java:8:	CommentRequired:	CommentRequired: Field comments are required
+src/Game/Paddle.java:10:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Game/Paddle.java:10:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'height' is not assigned and could be declared final
+src/Game/Paddle.java:10:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'width' is not assigned and could be declared final
+src/Game/Paddle.java:10:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'x' is not assigned and could be declared final
+src/Game/Paddle.java:10:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'y' is not assigned and could be declared final
+src/Game/Paddle.java:10:	ShortVariable:	ShortVariable: Avoid variables with short names like x
+src/Game/Paddle.java:10:	ShortVariable:	ShortVariable: Avoid variables with short names like y
+src/Game/Paddle.java:17:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/Game/Paddle.java:17:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'keyCode' is not assigned and could be declared final
+src/TestRound3/BallTest.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/TestRound3/BallTest.java:7:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/TestRound3/BallTest.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/TestRound3/BallTest.java:7:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/TestRound3/BallTest.java:9:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/TestRound3/BallTest.java:10:	UnitTestContainsTooManyAsserts:	UnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/TestRound3/BallTest.java:11:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'ball' could be declared final
+src/TestRound3/BallTest.java:12:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/BallTest.java:13:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/BallTest.java:14:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/BallTest.java:15:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/BallTest.java:20:	UnitTestContainsTooManyAsserts:	UnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/TestRound3/BallTest.java:21:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'ball' could be declared final
+src/TestRound3/BallTest.java:23:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/BallTest.java:24:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/BallTest.java:30:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'ball' could be declared final
+src/TestRound3/BallTest.java:33:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/BallTest.java:39:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'ball' could be declared final
+src/TestRound3/BallTest.java:42:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/BallTest.java:46:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/TestRound3/BallTest.java:47:	UnitTestContainsTooManyAsserts:	UnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/TestRound3/BallTest.java:48:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'ball' could be declared final
+src/TestRound3/BallTest.java:49:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/BallTest.java:50:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/BallTest.java:51:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/BreakoutTest.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/TestRound3/BreakoutTest.java:4:	UnnecessaryImport:	UnnecessaryImport: Unused import 'Game.GamePanel'
+src/TestRound3/BreakoutTest.java:6:	UnnecessaryImport:	UnnecessaryImport: Unused import 'javax.swing.JFrame'
+src/TestRound3/BreakoutTest.java:10:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/TestRound3/BreakoutTest.java:10:	CommentRequired:	CommentRequired: Class comments are required
+src/TestRound3/BreakoutTest.java:10:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/TestRound3/BreakoutTest.java:12:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/TestRound3/BreakoutTest.java:15:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'mainMethod' could be declared final
+src/TestRound3/BreakoutTest.java:17:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/TestRound3/BreakoutTest.java:18:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/BreakoutTest.java:18:	UnnecessaryBooleanAssertion:	UnnecessaryBooleanAssertion: assertTrue(true) or similar statements are unnecessary
+src/TestRound3/BrickTest.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/TestRound3/BrickTest.java:7:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/TestRound3/BrickTest.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/TestRound3/BrickTest.java:7:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/TestRound3/BrickTest.java:9:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/TestRound3/BrickTest.java:10:	UnitTestContainsTooManyAsserts:	UnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/TestRound3/BrickTest.java:11:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'brick' could be declared final
+src/TestRound3/BrickTest.java:12:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/BrickTest.java:13:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/BrickTest.java:14:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/BrickTest.java:15:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/BrickTest.java:16:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/BrickTest.java:20:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/TestRound3/BrickTest.java:21:	UnitTestContainsTooManyAsserts:	UnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/TestRound3/BrickTest.java:22:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'brick' could be declared final
+src/TestRound3/BrickTest.java:23:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/BrickTest.java:25:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/GamePanelTest.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/TestRound3/GamePanelTest.java:18:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/TestRound3/GamePanelTest.java:18:	CommentRequired:	CommentRequired: Class comments are required
+src/TestRound3/GamePanelTest.java:18:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/TestRound3/GamePanelTest.java:19:	CommentRequired:	CommentRequired: Field comments are required
+src/TestRound3/GamePanelTest.java:27:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/TestRound3/GamePanelTest.java:28:	UnitTestContainsTooManyAsserts:	UnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/TestRound3/GamePanelTest.java:29:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'bricks' could be declared final
+src/TestRound3/GamePanelTest.java:30:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/GamePanelTest.java:31:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "gameOver" appears 6 times in this file; the first occurrence is on line 31
+src/TestRound3/GamePanelTest.java:31:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/GamePanelTest.java:32:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/GamePanelTest.java:33:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/GamePanelTest.java:37:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/TestRound3/GamePanelTest.java:38:	UnitTestContainsTooManyAsserts:	UnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/TestRound3/GamePanelTest.java:39:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'e' could be declared final
+src/TestRound3/GamePanelTest.java:39:	ShortVariable:	ShortVariable: Avoid variables with short names like e
+src/TestRound3/GamePanelTest.java:40:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "ball" appears 11 times in this file; the first occurrence is on line 40
+src/TestRound3/GamePanelTest.java:40:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'ball' could be declared final
+src/TestRound3/GamePanelTest.java:48:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/GamePanelTest.java:53:	UnitTestContainsTooManyAsserts:	UnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/TestRound3/GamePanelTest.java:57:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/GamePanelTest.java:58:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/GamePanelTest.java:63:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/GamePanelTest.java:68:	UnitTestContainsTooManyAsserts:	UnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/TestRound3/GamePanelTest.java:69:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'ball' could be declared final
+src/TestRound3/GamePanelTest.java:72:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/GamePanelTest.java:77:	UnitTestContainsTooManyAsserts:	UnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/TestRound3/GamePanelTest.java:78:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'paddle' could be declared final
+src/TestRound3/GamePanelTest.java:79:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'ball' could be declared final
+src/TestRound3/GamePanelTest.java:82:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/GamePanelTest.java:86:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/TestRound3/GamePanelTest.java:87:	UnitTestContainsTooManyAsserts:	UnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/TestRound3/GamePanelTest.java:88:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'bricks' could be declared final
+src/TestRound3/GamePanelTest.java:92:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/GamePanelTest.java:93:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/GamePanelTest.java:94:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/GamePanelTest.java:102:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/TestRound3/GamePanelTest.java:107:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/GamePanelTest.java:111:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/TestRound3/GamePanelTest.java:112:	UnitTestShouldIncludeAssert:	UnitTestShouldIncludeAssert: This unit test should include assert() or fail()
+src/TestRound3/GamePanelTest.java:114:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'image' could be declared final
+src/TestRound3/GamePanelTest.java:115:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'g' could be declared final
+src/TestRound3/GamePanelTest.java:115:	ShortVariable:	ShortVariable: Avoid variables with short names like g
+src/TestRound3/GamePanelTest.java:126:	LawOfDemeter:	LawOfDemeter: Call to `dispose` on foreign value `g` (degree 2)
+src/TestRound3/GamePanelTest.java:131:	UnitTestContainsTooManyAsserts:	UnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/TestRound3/GamePanelTest.java:133:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'listenersField' could be declared final
+src/TestRound3/GamePanelTest.java:134:	AvoidAccessibilityAlteration:	AvoidAccessibilityAlteration: You should not modify visibility of constructors, methods or fields using setAccessible()
+src/TestRound3/GamePanelTest.java:135:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'listenerList' could be declared final
+src/TestRound3/GamePanelTest.java:136:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'getListenersMethod' could be declared final
+src/TestRound3/GamePanelTest.java:136:	LongVariable:	LongVariable: Avoid excessively long variable names like getListenersMethod
+src/TestRound3/GamePanelTest.java:137:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'listeners' could be declared final
+src/TestRound3/GamePanelTest.java:138:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'keyListener' could be declared final
+src/TestRound3/GamePanelTest.java:140:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'paddle' could be declared final
+src/TestRound3/GamePanelTest.java:144:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'leftEvent' could be declared final
+src/TestRound3/GamePanelTest.java:146:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/GamePanelTest.java:152:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/GamePanelTest.java:155:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/TestRound3/GamePanelTest.java:155:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/TestRound3/GamePanelTest.java:156:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'field' could be declared final
+src/TestRound3/GamePanelTest.java:157:	AvoidAccessibilityAlteration:	AvoidAccessibilityAlteration: You should not modify visibility of constructors, methods or fields using setAccessible()
+src/TestRound3/GamePanelTest.java:161:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/TestRound3/GamePanelTest.java:161:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'value' is not assigned and could be declared final
+src/TestRound3/GamePanelTest.java:161:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/TestRound3/GamePanelTest.java:162:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'field' could be declared final
+src/TestRound3/GamePanelTest.java:163:	AvoidAccessibilityAlteration:	AvoidAccessibilityAlteration: You should not modify visibility of constructors, methods or fields using setAccessible()
+src/TestRound3/PaddleTest.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/TestRound3/PaddleTest.java:9:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/TestRound3/PaddleTest.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/TestRound3/PaddleTest.java:9:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/TestRound3/PaddleTest.java:11:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/TestRound3/PaddleTest.java:12:	UnitTestContainsTooManyAsserts:	UnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/TestRound3/PaddleTest.java:13:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'paddle' could be declared final
+src/TestRound3/PaddleTest.java:14:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/PaddleTest.java:15:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/PaddleTest.java:16:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/PaddleTest.java:17:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/PaddleTest.java:22:	UnitTestContainsTooManyAsserts:	UnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/TestRound3/PaddleTest.java:23:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'paddle' could be declared final
+src/TestRound3/PaddleTest.java:25:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/PaddleTest.java:28:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/PaddleTest.java:33:	UnitTestContainsTooManyAsserts:	UnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/TestRound3/PaddleTest.java:34:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'paddle' could be declared final
+src/TestRound3/PaddleTest.java:36:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/PaddleTest.java:37:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/TestRound3/PaddleTest.java:39:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/PaddleTest.java:45:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'paddle' could be declared final
+src/TestRound3/PaddleTest.java:47:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+src/TestRound3/TestRunner.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/TestRound3/TestRunner.java:8:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/TestRound3/TestRunner.java:8:	CommentRequired:	CommentRequired: Class comments are required
+src/TestRound3/TestRunner.java:8:	TestClassWithoutTestCases:	TestClassWithoutTestCases: The class 'TestRunner' might be a test class, but it contains no test cases.
